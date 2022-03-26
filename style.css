@@ -1,0 +1,112 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: none;
+    overflow: auto;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color:grey;
+    text-align: left;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 1em;
+    padding-left: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+  }
+  .fa {color: rgb(202, 199, 199);
+}
+#sidebar {
+    position: fixed;
+    left: 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 120vh;
+    margin-top: -60px;
+    padding-right: 2px;
+    background: rgb(12, 1, 26);
+    font-size: 30px;
+}
+.body{
+   
+    
+    font-family: 'Poppins', sans-serif;
+}
+.squares {
+    display: flex;
+    justify-content: center;
+  }
+  .icon1,
+  .icon2,
+  .icon3 {
+      width: 180px;
+      height: 180px;
+      background: #031c2c;
+      color: antiquewhite;
+      text-align: center;
+
+  }
+  
+  
+   .icon1 {
+          margin-top: -2%;
+          margin-left: 5%;
+          margin-right: 10%;
+          border-style: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }   
+ 
+      .icon2 {
+          margin-top: -15%;
+          border-style: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          }
+
+    .icon3 {
+          margin-top: -2%;
+          margin-left: 10%;
+          border-style: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }   
+  
+.jumbotron {
+    background-image: url(images/keypad2.jpg);
+    background-size: 100% 100%;
+    border-left-width: 20px;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    opacity: 0.3; 
+    margin-left: 75px;
+    padding-top: 50px;
+    }
+    
+    .text {
+        margin-left: 100px;
+        margin-top: -250px;
+        margin-bottom: 180px;
+        color:black;
+    }
+
+#footer {
+    position:absolute;
+    text-align: center;
+    font-size: smaller;
+    bottom:0;
+    width:100%;
+    height:-200px;   /* Height of the footer */
+
+ }
+
+/*
+    ADDITIONAL DEMO STYLE, NOT IMPORTANT TO MAKE THINGS WORK BUT TO MAKE IT A BIT NICER :)
+*/
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
